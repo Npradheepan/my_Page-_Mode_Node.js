@@ -1,0 +1,116 @@
+.tabel_container,
+.search_container {
+  max-width: 1920px;
+  width: 90%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1% auto;
+}
+
+table, th, td, thead, tbody {
+  border: 1px solid black;
+  text-align: center;
+  height: 40px;
+}
+
+.view_table {
+  color: #2c1703;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  text-shadow: 4px 10px 4px;
+}
+
+.btn-hard {
+  position: relative;
+  font: 500 14px Arial;
+  letter-spacing: 0.5px;
+  color: #fff !important;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  min-width: 100px;
+  margin: 10px 5px;
+  padding: 8px 10px;
+  background-color: #f30707;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f30707), to(#f30707)) repeat scroll 0 0 #f30707;
+  background: linear-gradient(to bottom, #f30707 5%, #f30707 100%) repeat scroll 0 0 #f30707;
+}
+
+.btn-light {
+  position: relative;
+  font: 500 14px Arial;
+  letter-spacing: 0.5px;
+  color: #fff !important;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  min-width: 100px;
+  margin: 10px 5px;
+  padding: 8px 10px;
+  background-color: #0092ba;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #24A1C3), to(#0092BB)) repeat scroll 0 0 #24A1C3;
+  background: linear-gradient(to bottom, #24A1C3 5%, #0092BB 100%) repeat scroll 0 0 #24A1C3;
+}
+
+/*Search Content*/
+.search {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #fff;
+  float: left;
+}
+
+.search input {
+  width: 370px;
+  padding: 10px 5px;
+  float: left;
+  color: black;
+  border: none;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+.search button {
+  position: relative;
+  float: right;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: black;
+  background-color: #3aa2f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #096ff3), to(#2882f8)) repeat scroll 0 0 #439ff5;
+  background: linear-gradient(to bottom, #096ff3 5%, #2882f8 100%) repeat scroll 0 0 #439ff5;
+  border-left: 5px solid #fff;
+  border-radius: 0 3px 3px 0;
+}
+
+.search button:hover {
+  background: #4d0101;
+  color: white;
+}
+
+.search button:active {
+  -webkit-box-shadow: 0px 0px 12px 0px #e1e1e1;
+          box-shadow: 0px 0px 12px 0px #e1e1e1;
+}
+
+.search button:focus {
+  outline: 0;
+}
+/*# sourceMappingURL=style.css.map */

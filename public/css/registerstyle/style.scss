@@ -1,0 +1,129 @@
+:root {
+    --time: 3000ms;
+}
+.reg_container {
+    width: 100%;
+    max-width: 1960px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    position: relative;
+//    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+    transform: scale(0.9);
+}
+
+.reg_container::before, .reg_container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 800px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slide-in var(--time) cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.reg_container::before {
+    z-index: 2;
+    left: -100px;
+    top: -50px;
+}
+
+.reg_container::after {
+    z-index: 0;
+    left: -200px;
+    top: -150px;
+    animation-delay: 200ms;
+}
+
+@keyframes slide-in {
+    0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    }
+    100% {
+    opacity: 0.6;
+    transform: translateX(0%) rotate(-15deg);
+    }
+}
+
+//Registation Form
+.reg_form_group {
+   width: 70%;
+   height: auto;
+   right: 0px;
+   height: auto;
+   margin-top: 25px;
+   position: absolute;
+}
+
+.err_curropt {
+    width: 50%;
+    height: 60px;
+    right: 0px;
+    position: absolute;
+    // background: black;
+}
+
+.checkbox_group{
+    display: flex;
+    flex-direction: row;
+}
+
+.check_group {
+    margin-left: 10px;
+}
+
+.sex_lable {
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_group {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.reg_lable {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reg_input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: #dddedf;
+}
+.reg_input_com {
+    width: 620px;
+    height: 80px;
+}
+
+.reg_btn {
+    width: 250px;
+    height: 50px;
+    margin: 70px auto;
+    border: none;
+    background: #30c7ec;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}

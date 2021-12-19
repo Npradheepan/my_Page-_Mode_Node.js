@@ -1,0 +1,68 @@
+
+<div class="reg_container">
+    <div class="err_curropt">
+    </div>
+    <div class="reg_form_group">
+        <div class="checkbox_group">
+            <label class="sex_lable" for="Sexuality">Sex:</label>  
+            <div class="check_group">
+                <label for="">Male</label>
+                <input type="checkbox" name="male" value="{{this.male}}">
+            </div>
+            <div class="check_group">
+                <label for="">Female</label>
+                <input type="checkbox" name="female" value="{{this.female}}">
+            </div>
+        </div>
+        {{!-- Name --}}
+        <div class="main_group"> 
+            <div class="form_group">
+                <label class="reg_lable" for="firstname">FirstName</label>
+                <input  class="reg_input firstname" type="text" placeholder="FirstName" name="firstname" value="{{this.firstname}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="middelname">MiddelName</label>
+                <input class="reg_input middlename" type="text" placeholder="MiddelName" name="middlename" value="{{this.middelname}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="lastname">LastName</label>
+                <input class="reg_input lastname" type="text" placeholder="LastName"name="lastname" value="{{this.lastname}}">
+            </div>
+        </div>
+        <div class="main_group"> 
+            <div class="form_group">
+                <label class="reg_lable"  for="countrycode">CountryCode</label>
+                <input class="reg_lable reg_input countrycode" type="text" name="countrycode" placeholder="ContryCode" value="{{this.countrycode}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="code">PhoneCode</label>
+                <input class="reg_input phonecode" type="nummber" name="phonecode" placeholder="PhoneCode" value="{{this.phonecode}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="contactnummber">ContactNummer</label>
+                <input class="reg_input contactnumber"  class="" type="nummber" name="contactname" placeholder="ContactNummber" value="{{this.contactname}}">
+            </div>
+        </div>
+        <div  class="main_group"> 
+            <div class="form_group">
+                <label class="reg_lable" for="code">E-Mail</label>
+                <input class="reg_input email" type="email" name="email" placeholder="E-mail" value="{{this.email}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="code">Password</label>
+                <input class="reg_input password" type="password" name="password" placeholder="Password" value="{{this.password}}">
+            </div>
+            <div class="form_group">
+                <label class="reg_lable" for="code">ConformPassword</label>
+                <input class="reg_input conformpassword" type="password" name="conformpassword" placeholder="ConfromPassword" value="{{this.conformpassword}}">
+            </div>
+        </div>
+        <div class="main_group"> 
+            <div class="form_group">
+                <label class="reg_lable" for="">Comments</label>
+                <input class="reg_input_com" class="comments" type="text" name="comments" placeholder="comments" value="{{this.comments}}">
+            </div>
+            <button  class="reg_btn" type="submit">Submit</button>
+        </div>
+    </div>
+</div>

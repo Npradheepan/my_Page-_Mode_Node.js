@@ -1,0 +1,133 @@
+.right-slider {
+  width: 70%;
+  height: 100px;
+  margin-left: 5%;
+}
+
+.slider {
+  max-width: 920px;
+  height: 100px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slide_viewer {
+  width: 920px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100px;
+  top: 20px;
+  display: none;
+  position: absolute;
+}
+
+.slide-txt {
+  padding: 0px;
+  margin-left: 6%;
+  text-align: left;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.link-media {
+  text-decoration: none;
+  color: #1d0303;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.slide-img {
+  margin-right: 6%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.slide_buttons {
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #ffffff;
+  font-size: 42px;
+  margin: 0 auto;
+  top: -30px;
+  left: 20%;
+  position: relative;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+}
+
+.slide_btn.active,
+.slide_btn:hover {
+  color: #03093f;
+  cursor: pointer;
+}
+
+.directional_nav {
+  top: -100px;
+  height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.previous_btn {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.next_btn {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.previous_btn,
+.next_btn {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  opacity: 0.2;
+  -webkit-transition: opacity 5s ease-in-out;
+  transition: opacity 5s ease-in-out;
+}
+
+.previous_btn:hover,
+.next_btn:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
+/*# sourceMappingURL=slider.css.map */

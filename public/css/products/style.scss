@@ -1,0 +1,55 @@
+.product_container {
+    max-width: 1820px;
+    width: 98%;
+    height: 720px;
+    margin: 20px auto;
+    padding: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+/*Html Tage */
+.content_img {
+    width:20%;
+    margin: 2%;
+    text-shadow: 0 19px 38px rgba(0,0,0,0.40), 0 15px 12px rgba(0, 0, 0, 0.80);
+
+}
+.image_lang{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+	shape-outside: circle();
+
+}
+.lang_sec {
+    width: 100%;
+    height: 320px;
+    margin: 5% auto;
+    padding: 0;
+    display: flex;
+}
+.contentt_details {
+    width: 70%;
+}
+.explain_txt {
+    transform-origin: 50% 600px;
+    transform: scale(0.75, 0.75) perspective(1200px) rotateY(0deg) rotateX();
+    text-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0, 0, 0, 0.10);
+    text-align: justify;
+    margin: 1% auto;
+	font-size: calc(0.90rem + 0.25vw);
+    
+}
+.language_title{
+    font-family: Lobster;
+    font-size: 52px;
+    color: #351502;
+    text-shadow: 0 19px 38px rgba(0,0,0,0.40), 0 15px 12px rgba(0, 0, 0, 0.50);
+}
+//images_paragraph
+:root {
+	--sinSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	--conSerif: "Libre Baskerville", serif;
+}
+
